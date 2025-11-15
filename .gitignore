@@ -1,0 +1,101 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+flutter_*.png
+.project
+.classpath
+
+# Flutter/Dart environment
+.env
+.env.*
+!.env.example
+
+# Android related
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/key.properties
+**/android/app/google-services.json
+
+# iOS related
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcworkspace/xcshareddata/
+**/ios/Runner.xcworkspace/xcuserdata/
+
+# macOS related
+**/macos/Flutter/Flutter.podspec
+**/macos/Pods/
+**/macos/DerivedData/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+**/macos/Runner.xcworkspace/xcshareddata/
+**/macos/Runner.xcworkspace/xcuserdata/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Web related
+**/web/.dart_tool/
+**/web/wasm/
+**/web/build/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+*.xcworkspace/xcuserdata/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+
+# Firebase
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Crashlytics
+**/app/crashlytics-build.properties
+
+# Temporary files
+*.log
+*.tmp
+*.lock
+!pubspec.lock
+*.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+server_info.md
