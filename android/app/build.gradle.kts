@@ -28,6 +28,16 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        // Load Google Maps API key from local.properties and expose it as a manifest placeholder.
+        val localPropsFile = rootProject.file("local.properties")
+        val localProps = java.util.Properties().apply {
+            if (localPropsFile.exists()) {
+                load(localPropsFile.inputStream())
+            }
+        }
+        val mapsApiKey = localProps.getProperty("MAPS_API_KEY") ?: ""
+        manifestPlaceholders["MAPS_API_KEY"] = mapsApiKey
     }
 
     buildTypes {
