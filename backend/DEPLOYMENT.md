@@ -279,7 +279,7 @@ googleapi: Error 403: ... does not have storage.objects.get access
    - **Region**: Same as Artifact Registry region
    - **Authentication**: Allow unauthenticated invocations (for public API)
    - **Container**: 
-     - **Container port**: `8080`
+     - **Container port**: `8000`
      - **CPU**: 1
      - **Memory**: 512Mi
      - **Min instances**: 1 (to avoid cold starts)

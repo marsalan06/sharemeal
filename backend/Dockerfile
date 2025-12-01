@@ -27,8 +27,8 @@ ENV PATH=/root/.local/bin:$PATH
 COPY . .
 
 # Expose port (Cloud Run will set PORT env var)
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=8000
+EXPOSE 8000
 
 # Health check (Cloud Run also has built-in health checks)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
